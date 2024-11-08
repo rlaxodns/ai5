@@ -53,7 +53,7 @@ def xgb_hamsu(learning_rate, max_depth, num_leaves, min_child_samples, min_child
         'reg_alpha':reg_alpha
     }
 
-    model = XGBRegressor(**params,n_jobs = -1)
+    model = XGBRegressor(**params, n_jobs = -1)
     model.fit(x_train, y_train,
               eval_set= [(x_test, y_test)],
             #   eval_metrics = 'logloss',
