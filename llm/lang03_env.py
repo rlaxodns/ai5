@@ -15,7 +15,8 @@ import langchain
 import openai
 print(langchain.__version__) # 0.3.7
 print(openai.__version__) # 1.54.3
-
+print(langchain.__version__) # 0.3.7
+print(openai.__version__) # 1.54.3
 
 from langchain_openai import ChatOpenAI
 
